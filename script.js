@@ -55,11 +55,20 @@ function overTarget (evt) {
 function dropOnTarget (evt) {
     evt.preventDefault();  //necessary
     evt.target.classList.add("droppedTarget");
-    const n1 =evt.dataTransfer.getData("text/plain")
+    const n1 = evt.dataTransfer.getData("text/plain")
     // console.log(n1);
     const elem = document.getElementById(n1)
     evt.target.appendChild(elem)
 }
-
-
-
+// function end(evt){
+//     for (let i = 1; i <=16; i++) {
+//         const n2=document.getElementById(i)
+//         const n3=document.querySelector("div[data-tag]").getAttribute("data-tag")[i]
+//         console.log(n3);
+//         console.log(n2);
+//         if(n2 == n3){
+//             alert('You win')
+//         }
+//     }
+// }
+// end()
