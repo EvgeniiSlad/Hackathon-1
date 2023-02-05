@@ -23,6 +23,11 @@ body {
     height: 77px;
     border: 0.5px solid rebeccapurple;
 }
+#sup img{
+    width: 624px;
+    height: 321px;
+    /* margin-top: 20px; */
+}
 
 #secondpart{
     width: 936px;
